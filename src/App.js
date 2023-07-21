@@ -16,8 +16,8 @@ class App extends Component {
   handleSubmit = async (event) => {
     event.preventDefault();
     const { textValue } = this.state;
-    const postUrl = "http://localhost:3000/addtext";
-    const getUrl = "http://localhost:3000/gettext";
+    const postUrl = "https://exactspace-nodejs-deploy-demo.onrender.com/addtext";
+    const getUrl = "https://exactspace-nodejs-deploy-demo.onrender.com/gettext";
     const postOptions = {
       method: "POST",
       headers: {
